@@ -1,5 +1,5 @@
 #!/bin/sh
 
-echo "$RENEWAL_INTERVAL root cronbot renew" > /etc/crontabs/root
+echo "$RENEWAL_INTERVAL cronbot renew" > /etc/crontabs/root
 
 crond
