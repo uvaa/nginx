@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-ENV RENEWAL_INTERVAL="0 3 */8 * *"
+ENV RENEWAL_INTERVAL="0 3 */7 * *"
 
 COPY 00-init.sh /docker-entrypoint.d
 
