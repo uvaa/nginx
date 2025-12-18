@@ -1,4 +1,4 @@
-FROM nginx:1.23.4-alpine
+FROM nginx:1.29.4-alpine3.23
 
 ENV RENEWAL_INTERVAL="0 3 */7 * *"
 
